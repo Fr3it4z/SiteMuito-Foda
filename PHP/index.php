@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1, initial-scale=1.0">
-    <title>Site Bacano</title>
+    <!-- Porte para o ver no móvel -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="inicial-scale=1, maximum-scale=1">
+    <!-- meta para melhorar a busca para o site-->
+    <title>Jogo Foda Site</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fevicon -->
+    <link rel="icon" href="">
 </head>
 <body>
     <header></header>
