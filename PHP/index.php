@@ -33,7 +33,7 @@
         <!-- parte de cima principal-->
         <section class="">
 
-            <div class="textol">
+            <div class="texto">
                 <h1 class="titulo">Project L</h1>                
                 <h2 class="subtitulo">"subtitulo"</h2>
                 
