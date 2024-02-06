@@ -8,7 +8,7 @@ Olá este repositório é para guardar um site sobre o jogo no meu projeto PaP j
     "terminal.integrated.sendKeybindingsToShell": true,
     "symbols.hidesExplorerArrows": false,
     "workbench.iconTheme": "symbols",
-"editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
     "editor.rulers": [80,120],
