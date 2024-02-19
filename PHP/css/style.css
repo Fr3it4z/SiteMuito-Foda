@@ -1,15 +1,49 @@
+/* Importar Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Righteous&display=swap');
+
 *{
     /*Css Geral*/
     margin:0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: rgb(252,244,220);
+}
+
+body{
     background-image: url('../image/wallpaperspace.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
 }
+.pretoimagem{
 
-body{
+    padding: 0.5%;
+    position: absolute;
+    background-position: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    max-height: 10%;
+    max-width: 95%;
+    border-radius: 40px;
+}
+.navbar{
+    margin-top: 0.5%;
+    padding: 2.2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    overflow: hidden;
+}
+.menutext{
+    color: rgb(252,244,220);
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 120%;
+}
+.firstmenu{
+    display: flex;
+    gap: 32px;   
 }

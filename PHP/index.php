@@ -22,13 +22,16 @@
     <!--parte de cima-->
     <header class="cabecalho">
         <!--linha de cima para mudar de pagina-->
-        <nav class="firstmenu">
-            <a href="">Inicio</a>
-            <a href="">Jogo</a>
-            <a href="">Trabalho PAP</a>
-            <a href="">Apresentação</a>
-            <a href="">Créditos</a>
-        </nav>
+        <div class="navbar">
+        <img class="pretoimagem" src="./image/preto.jpg" width="100%"> 
+            <nav class="firstmenu">
+                <a class="menutext" href="">Inicio</a>
+                <a class="menutext" href="">Jogo</a>
+                <a class="menutext" href="">Trabalho PAP</a>
+                <a class="menutext" href="">Apresentação</a>
+                <a class="menutext" href="">Créditos</a>
+            </nav>
+        </div>
     </header>
     <!--parte principal-->
     <main class="conteudo">
