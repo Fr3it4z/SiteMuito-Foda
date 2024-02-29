@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=3284">
+    <link rel="stylesheet" href="./css/style.css?=3284">
     <!-- fevicon -->
     <link rel="icon" href="">
 </head>
@@ -22,15 +22,21 @@
     <!--parte de cima-->
     <header class="cabecalho">
         <!--linha de cima para mudar de pagina-->
-        <div class="navbar">
-        <img class="pretoimagem" src="./image/preto.jpg" width="100%"> 
+        <div class="navbar"> 
+            <img class="pretoimagem" src="./image/preto.jpg" alt="preto" width="100%">
             <nav class="firstmenu">
+                <!-- output de texto (texto da navbar)-->
                 <a class="menutext" href="">Inicio</a>
                 <a class="menutext" href="">Jogo</a>
                 <a class="menutext" href="">Trabalho PAP</a>
                 <a class="menutext" href="">Apresentação</a>
                 <a class="menutext" href="">Créditos</a>
             </nav>
+            <!-- algo como tab no word (ul)-->
+            <ul></ul>
+            <ul></ul>
+            <!-- image da navbar algo como uma logo -->
+            <img class="imgnavbar" src="./image/gifidlesprite.gif" alt="Logo fixe" width="4.5%">
         </div>
     </header>
     <!--parte principal-->

@@ -3,47 +3,78 @@
 
 *{
     /*Css Geral*/
+    /* tirar todo o tipo de deffalt settiungs do css */
     margin:0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* meter a cor para todas as letras */
     color: rgb(252,244,220);
 }
-
 body{
+    /* Toda parte do site */
     background-image: url('../image/wallpaperspace.gif');
+    /* imagem de background */
     background-repeat: no-repeat;
+    /* não auto preencher com mais imagens iguais */
     background-attachment: fixed;
+    /* imagem parada */
     background-size: cover;
+    /* preencher todo o site */
 }
 .pretoimagem{
-
+    /* imagem preta de backgroud de da navbar */
+    /* posição da navbar */
     padding: 0.5%;
+    /* nenhum outro elemento pode mudar a imagem */
     position: absolute;
-    background-position: 100%;
+    /* fica mais transparente */
     opacity: 0.5;
+    /* ficar atras de todos os outros elementos */
     z-index: -1;
+    /* maximo que pode chegar a imagem */
     max-height: 10%;
-    max-width: 95%;
+    max-width: 90%;
+    /* borda redonda */
     border-radius: 40px;
 }
 .navbar{
+    /* posição da navbar */
     margin-top: 0.5%;
     padding: 2.2%;
+    /* estilo de posição de elementos da navbar */
     display: flex;
+    /* condições flex*/
+    /* por items em linha */
     flex-direction: row;
+    /* por-los no centro */
     align-items: center;
+    /* maneira de como se posicionam dentro do div */
     justify-content: space-around;
     list-style-type: none;
     overflow: hidden;
+    border-radius: 40px;
 }
 .menutext{
+    /* defenições de texto */
     color: rgb(252,244,220);
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 130%;
+}
+.menutext:hover{
+    /* defenição de quando se passa por cima */
+    color: rgb(221,86,91);
+    text-shadow: 1px 1px 2px #6c5454, 0 0 25px #60281c, 0 0 10px #60281c;
 }
 .firstmenu{
+    /* gap entre os elementos */
     display: flex;
-    gap: 32px;   
+    gap: 30px;
+}
+.imgnavbar{
+    /* defenição de logo */
+    height: 10%;
+    max-width: 20%;
+    margin-top: -1.5%;
 }
