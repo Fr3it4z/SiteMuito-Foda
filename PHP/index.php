@@ -42,13 +42,21 @@
     <!--parte principal-->
     <main class="conteudo">
         <!-- parte de cima principal-->
-        <section class="Parte-Principal">
+        <section class="parte-principal">
             <!--dentro da secção texto-->
-            <div class="Titulo principal">
+            <div class="titulo-principal">
                 <!--titulo-->
                 <h1 class="titulo">Project L</h1>
                 <!--subtitulo-->                
                 <h2 class="subtitulo">"subtitulo"</h2>
+                    <style>
+                        .subtitulo{
+                            margin-left: 12%;
+                        }
+                    </style>
+                <a class="botao" href="https://epbjc.pt/barreiro" target="blank">
+                    EPBJC <br> Barreiro
+                </a>
             </div>
         </section>
         <!--Parte de Baixo do main-->
