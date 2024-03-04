@@ -24,6 +24,7 @@
         <!--linha de cima para mudar de pagina-->
         <div class="navbar"> 
             <img class="pretoimagem" src="./image/preto.jpg" alt="preto" width="100%">
+            <img class="imgnavbar" src="./image/gifidlesprite.gif" alt="Logo fixe" width="4.5%">
             <nav class="firstmenu">
                 <!-- output de texto (texto da navbar)-->
                 <a class="menutext" href="">Inicio</a>
@@ -36,7 +37,9 @@
             <ul></ul>
             <ul></ul>
             <!-- image da navbar algo como uma logo -->
-            <img class="imgnavbar" src="./image/gifidlesprite.gif" alt="Logo fixe" width="4.5%">
+            <a href="https://epbjc.pt/barreiro" target="blank">
+                <img class="logoepbjc" src="./image/epbjc.png" alt="Logo EPBJC" width="50%">
+            </a>
         </div>
     </header>
     <!--parte principal-->
@@ -54,9 +57,6 @@
                             margin-left: 12%;
                         }
                     </style>
-                <a class="botao" href="https://epbjc.pt/barreiro" target="blank">
-                    EPBJC <br> Barreiro
-                </a>
             </div>
         </section>
         <!--Parte de Baixo do main-->
@@ -70,5 +70,6 @@
     <footer class="footer">
 
     </footer>
+    <script src="./js/slider.js">  </script>
 </body>
 </html>
