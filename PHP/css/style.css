@@ -109,6 +109,7 @@ body{
     font-family: "IMB Plex Serif", serif;
     font-weight: 600;
     font-size: 200%;
+    margin-left: 12%;
 }
 .botao{
     
@@ -131,49 +132,3 @@ body{
     background-color:   rgb(252,244,220);
     text-shadow: 4px 4px 7px rgb(75,44,60), 0 0 15px rgb(75,44,60), 0 0 25px rgb(75,44,60);
 }
-/* .container{
-    margin-top: -4.5%;
-    padding: 2rem;
-    max-width: 50%;
-}
-.slide-wrapper{
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
-}
-.slider{
-    display:flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    overflow-x: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 3rem 6rem -1.5rem hsla(0,0%,0%, 0.5);
-}
-.slider img{
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
-.slider-nav{
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    margin-top: -1%;
-    margin-left: 13%;
-    
-
-    z-index: 1;
-}
-.slider-nav a{
-    width: 0.75rem;
-    height: 0.75rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.slider-nav a:hover{
-    opacity: 1;
-    background-color:  rgb(221,86,91);
-} */

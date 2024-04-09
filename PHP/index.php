@@ -52,28 +52,13 @@
                 <h1 class="titulo">Project L</h1>
                 <!--subtitulo-->                
                 <h2 class="subtitulo">"subtitulo"</h2>
-                    <style>
-                        .subtitulo{
-                            margin-left: 12%;
-                        }
-                    </style>
             </div>
-<!--             <section class="container">
-                <div class="slidewrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="https://plus.unsplash.com/premium_photo-1707242995268-59f778c70390?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8" alt="fixe" >
-                        <img id="slide-2"src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" alt="fixe2">
-                        <img id="slide-3"src="https://images.unsplash.com/photo-1710237103624-77e1c5b612a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D" alt="fixe2">
-                        <img id="slide-4"src="https://images.unsplash.com/photo-1709408925583-a3c0e25b3a51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D" alt="fixe2">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1" class="botaomerdinha"></a>
-                        <a href="#slide-2" class="botaomerdinha"></a>
-                        <a href="#slide-3" class="botaomerdinha"></a>
-                    </div>
-                </div> -->
-            </section>
-        </section>
+            <div class="container-slider">
+                <div class="container-images">
+                    <img src="./" alt="">
+                </div>
+            </div>
+    </section>
         <!--Parte de Baixo do main-->
         <section class="parte-de-baixo">
             <div class="texto-de-baixo">
@@ -85,6 +70,6 @@
     <footer class="footer">
 
     </footer>
-    <script src="./js/slider.js">  </script>
+    <script src="./js/slider"></script>
 </body>
 </html>
