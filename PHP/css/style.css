@@ -125,7 +125,6 @@ body{
     display: inline-block;
     background-color: rgb(221,86,91);
     color: rgb(252,244,220);
-
     cursor: pointer;
 }
 .botao:hover{
@@ -133,43 +132,49 @@ body{
     text-shadow: 4px 4px 7px rgb(75,44,60), 0 0 15px rgb(75,44,60), 0 0 25px rgb(75,44,60);
 }
 .container-slider{
-
     display: flex;
     width: 50%;
     align-items: center;
-    justify-content: end;
-    gap: 1rem;
+    justify-content: center;
 }
 .container-images{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400%;
+    width: 150%;
 }
 .slider{
+    opacity: 0;
+    transition: opacity .5s;
     z-index: -1;
     position: absolute;
     width: 100%;
-    border-radius:10px
+    border-radius: 30px;
+    box-shadow: 4px 5px 4px rgb(221,86,91);
 }
+.on{
+    opacity: 1;
+
+}
+
 #prev-button, #next-button {
     position: absolute;
-    width: 20%;
-    height: 20%;
+    max-width: 45px;
+    max-height: 45px;
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 #prev-button img, #next-button img{
-    opacity: 0.5;
-    width: 20%;
+    opacity: 0.8;
+    width: 100%;
     height: 40%;
 }
 #prev-button{
-    margin-right: 23%;
+    margin-right: 30%;
     transform: rotate(180deg);
 }
-#next-button img{
-    margin-left: 80%;
+#next-button{
+    margin-left: 31%;
 }

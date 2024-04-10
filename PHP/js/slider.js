@@ -1,6 +1,6 @@
-const slider = document.querySelectorAll('slider');
-const btnPrev = document.querySelectorAll('prev-button');
-const btnNext = document.querySelectorAll('next-button');
+const slider = document.querySelectorAll('.slider');
+const btnPrev = document.getElementById('prev-button');
+const btnNext = document.getElementById('next-button');
 
 let CurrentSlide = 0;
 
@@ -31,8 +31,6 @@ function prevslide(){
     }
     showSlide()
 }
-
-btnNext.addEventListener('click', () => console.log('clicado'))
-btnPrev.addEventListener('click', () => console.log('clicado'))
-
-console.log(slider)
+nextSlide
+btnNext.addEventListener('click', nextSlide)
+btnPrev.addEventListener('click', prevslide)
