@@ -54,9 +54,12 @@
                 <h2 class="subtitulo">"subtitulo"</h2>
             </div>
             <div class="container-slider">
+                <button id="prev-button"><img src="./image/arrow.png" alt="prev-arrow"></button>
                 <div class="container-images">
-                    <img src="./" alt="">
+                    <img class="slider" src="./image/thumb.png" alt="fixe">
+                    <img class="slider" src="./image/thumbKurumi.png" alt="fixe2">
                 </div>
+                <button id="next-button"><img src="./image/arrow.png" alt="next-arrow"></button>
             </div>
     </section>
         <!--Parte de Baixo do main-->
@@ -70,6 +73,6 @@
     <footer class="footer">
 
     </footer>
-    <script src="./js/slider"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
